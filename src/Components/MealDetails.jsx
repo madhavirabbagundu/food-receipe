@@ -16,9 +16,10 @@ function MealDetails(){
          return(
             <>
             {
+            
                 getData.map((item)=>(
-                    <div className="mealinfo">
-                <img className = "mealImg"src = {item.strMealThumb}/>
+                 <div className="mealinfo">
+                <img className = "mealImg"src = {item.strMealThumb} alt= ""/>
             <div className="info">
              <h1>Receipe Details</h1>
              <button>{item.strMeal}</button>

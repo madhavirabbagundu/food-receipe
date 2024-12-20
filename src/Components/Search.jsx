@@ -18,7 +18,7 @@ function Search(){
     }
 return(
     <>
-    <h1>This is the search file</h1>
+    {/* <h1>This is the search file</h1> */}
     {/* <form> */}
         <input type = "text"
         placeholder='Enter the food item'

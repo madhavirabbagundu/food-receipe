@@ -59,7 +59,9 @@
   /* height:60px; */
   border-radius: 11px;;
 }
-
+.empty{
+  margin:1%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
